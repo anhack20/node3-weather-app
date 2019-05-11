@@ -1,15 +1,3 @@
-console.log('client side javascriot is loaded')
-
-fetch('http://puzzle.mead.io/puzzle').then((response)=>{
-    response.json().then((data)=>{
-        console.log(data)
-    })
-})
-
-
-
-
-
 const weather = document.querySelector('form')
 const messageOne = document.querySelector('#bam')
 const messageTwo = document.querySelector('#bang')
